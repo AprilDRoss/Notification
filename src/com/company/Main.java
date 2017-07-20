@@ -14,17 +14,6 @@ public class Main {
         myText.printSomeText();
         myEmail.printSomeText();
 
-        try {
-            Object emailNotificationClone = myEmail.clone();
-            if (myEmail.equals(emailNotificationClone)){
-                System.out.println("email and clone are equvilent");
-            }else{
-                System.out.println("email does not equal clone");
-            }
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-
 
 
 

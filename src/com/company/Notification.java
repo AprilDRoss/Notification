@@ -21,7 +21,7 @@ public class Notification extends RuntimeException {
         this.createdAt = LocalDateTime.now();
         this.status = "sent";
     }
-    
+
 
     public String getSubject() {
 
